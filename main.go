@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"leetcode/easy"
+	"leetcode/medium"
 )
 
 func main() {
-	s := "hello"
+	s := "  hello world  "
 
-	fmt.Println(easy.ReverseVowels(s))
+	fmt.Println(medium.ReverseWords(s))
 }
