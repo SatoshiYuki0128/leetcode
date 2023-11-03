@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	s := "  hello world  "
+	nums := []int{1, 2, 0, 3, 4}
 
-	fmt.Println(medium.ReverseWords(s))
+	fmt.Println(medium.ProductExceptSelf2(nums))
 }
