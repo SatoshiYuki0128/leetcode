@@ -2,11 +2,14 @@ package main
 
 import (
 	"fmt"
-	"leetcode/medium"
+	"leetcode/easy"
 )
 
 func main() {
-	chars := []byte{'a', 'a', 'b', 'b', 'c', 'c', 'c', 'd'}
+	//nums := []int{0, 1, 0, 3, 12}
+	nums := []int{4, 2, 4, 0, 0, 3, 0, 5, 1, 0}
 
-	fmt.Println(medium.Compress(chars))
+	easy.MoveZeroes(nums)
+
+	fmt.Println(nums)
 }
