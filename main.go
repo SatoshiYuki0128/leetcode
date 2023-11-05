@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	nums := []int{1, 2, 0, 3, 4}
+	chars := []byte{'a', 'a', 'b', 'b', 'c', 'c', 'c', 'd'}
 
-	fmt.Println(medium.ProductExceptSelf2(nums))
+	fmt.Println(medium.Compress(chars))
 }
