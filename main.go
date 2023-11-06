@@ -6,7 +6,11 @@ import (
 )
 
 func main() {
-	height := []int{1, 1}
+	//nums := []int{1, 2, 3, 4}
+	//k := 5
 
-	fmt.Println(medium.MaxArea(height))
+	nums := []int{3, 1, 3, 4, 3}
+	k := 6
+
+	fmt.Println(medium.MaxOperations(nums, k))
 }
