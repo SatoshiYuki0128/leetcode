@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
-	"leetcode/easy"
+	"leetcode/medium"
 )
 
 func main() {
-	nums := []int{-1}
-	k := 1
+	nums := []int{1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0}
+	k := 2
 
-	fmt.Println(easy.FindMaxAverage(nums, k))
+	fmt.Println(medium.LongestOnes(nums, k))
 }
