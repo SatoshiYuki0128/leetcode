@@ -6,7 +6,11 @@ import (
 )
 
 func main() {
-	nums := []int{1, 7, 3, 6, 5, 6}
+	nums1 := []int{1, 2, 3}
+	nums2 := []int{2, 4, 6}
 
-	fmt.Println(easy.PivotIndex(nums))
+	//nums1 := []int{1, 2, 3, 3}
+	//nums2 := []int{1, 1, 2, 2}
+
+	fmt.Println(easy.FindDifference(nums1, nums2))
 }
