@@ -2,12 +2,11 @@ package main
 
 import (
 	"fmt"
-	"leetcode/medium"
+	"leetcode/easy"
 )
 
 func main() {
-	//nums := []int{1, 0, 1, 0}
-	nums := []int{0, 1, 1, 1, 0, 1, 1, 0, 1}
+	gain := []int{-5, 1, 5, 0, -7}
 
-	fmt.Println(medium.LongestSubarray(nums))
+	fmt.Println(easy.LargestAltitude(gain))
 }
