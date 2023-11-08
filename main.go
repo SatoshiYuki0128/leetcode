@@ -6,8 +6,8 @@ import (
 )
 
 func main() {
-	nums := []int{1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0}
-	k := 2
+	//nums := []int{1, 0, 1, 0}
+	nums := []int{0, 1, 1, 1, 0, 1, 1, 0, 1}
 
-	fmt.Println(medium.LongestOnes(nums, k))
+	fmt.Println(medium.LongestSubarray(nums))
 }
