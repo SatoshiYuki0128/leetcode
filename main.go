@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	gain := []int{-5, 1, 5, 0, -7}
+	nums := []int{1, 7, 3, 6, 5, 6}
 
-	fmt.Println(easy.LargestAltitude(gain))
+	fmt.Println(easy.PivotIndex(nums))
 }
