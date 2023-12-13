@@ -6,11 +6,13 @@ import (
 )
 
 func main() {
-	nums1 := []int{1, 2, 3}
-	nums2 := []int{2, 4, 6}
+	//num := [][]int{{1, 0, 0}, {0, 1, 0}, {0, 0, 1}}
+	//num := [][]int{{1, 0, 0}, {0, 0, 1}, {1, 0, 0}}
+	num := [][]int{
+		{0, 0, 0, 1},
+		{1, 0, 0, 0},
+		{0, 1, 1, 0},
+		{0, 0, 0, 0}}
 
-	//nums1 := []int{1, 2, 3, 3}
-	//nums2 := []int{1, 1, 2, 2}
-
-	fmt.Println(easy.FindDifference(nums1, nums2))
+	fmt.Println(easy.NumSpecial(num))
 }
